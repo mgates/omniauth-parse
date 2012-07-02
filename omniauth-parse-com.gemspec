@@ -1,11 +1,10 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/omniauth-parse-com/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Micah Gates"]
   gem.email         = ["github@mgates.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{An Omniauth Strategy for Parse.com}
+  gem.summary       = %q{An Omniauth Strategy for Parse.com}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -13,5 +12,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "omniauth-parse-com"
   gem.require_paths = ["lib"]
-  gem.version       = Omniauth::Parse::Com::VERSION
+  gem.version       = '0.0.1'
 end
