@@ -7,6 +7,6 @@ require 'omniauth'
 #include Rack::Test::Methods
 #include WebMock::API
 
-require 'omniauth-parse-com'
+require 'omniauth-parse'
 
 #WebMock.disable_net_connect!

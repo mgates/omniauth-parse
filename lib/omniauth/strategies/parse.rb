@@ -3,7 +3,7 @@ require 'faraday'
 
 module OmniAuth
   module Strategies
-    class ParseCom
+    class Parse
       include OmniAuth::Strategy
 
       PARSE_LOGIN = {:site => "https://api.parse.com", :path => "1/login"}
