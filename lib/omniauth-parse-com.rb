@@ -1,1 +1,1 @@
-require 'omniauth/strategies/parse-com'
+require 'omniauth/strategies/parse_com'

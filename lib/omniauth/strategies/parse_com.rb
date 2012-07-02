@@ -44,7 +44,10 @@ module OmniAuth
           req.params['password'] = "XXX"
         end
 
-        result.status == "200" || return false
+        unless result.status == "200"
+          #logging?
+          return false
+        end
 
       end
 
