@@ -1,5 +1,5 @@
 module OmniAuth
   module Parse
-    VERSION = '0.0.9'
+    VERSION = '0.0.1'
   end
 end

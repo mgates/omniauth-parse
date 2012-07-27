@@ -26,13 +26,19 @@ module OmniAuth
       end
 
       def callback_phase
-        @raw_data = is_valid_user
+        @raw_data = get_user_data
         return fail!(:invalid_credentials) unless @raw_data
-        debugger
+        @parsed_data = JSON.parse @raw_data
         super
       end
 
-      def is_valid_user
+      uid { @parsed_data.delete "objectId"  }
+
+      info do
+        @parsed_data
+      end
+
+      def get_user_data
         conn = Faraday.new(:url => PARSE_LOGIN[:site]) do |req|
           req.request :url_encoded
           req.adapter  Faraday.default_adapter
