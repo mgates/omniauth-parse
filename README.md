@@ -31,4 +31,5 @@ Or install it yourself as:
 5. Create new Pull Request
 
 ## TODO
- tests tests tests
+tests tests tests
+respond to anything other than 200, exposisng parse errors

@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["github@mgates.com"]
   gem.description   = %q{An Omniauth Strategy for Parse.com}
   gem.summary       = %q{An Omniauth Strategy for Parse.com}
-  gem.homepage      = "https://://github.com/mgates/omniauth-parse"
+  gem.homepage      = "https://github.com/mgates/omniauth-parse"
   gem.name        = "omniauth-parse"
   gem.version     = OmniAuth::Parse::VERSION
   gem.summary     = %q{OmniAuth strategy for Parse}
