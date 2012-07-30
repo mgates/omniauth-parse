@@ -1,4 +1,5 @@
-# Omniauth::Parse::Com
+# Omniauth::Parse
+
 
 This gem is an OmniAuth strategy for parse.com.
 ## Installation
