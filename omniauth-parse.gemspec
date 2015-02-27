@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "omniauth-parse/version"
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Micah Gates"]
+  gem.authors       = ["Micah Gates", "Chris Bielinski"]
   gem.email         = ["github@mgates.com"]
   gem.description   = %q{An Omniauth Strategy for Parse.com}
   gem.summary       = %q{An Omniauth Strategy for Parse.com}

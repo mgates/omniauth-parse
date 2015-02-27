@@ -1,6 +1,3 @@
-I have no idea if this still works, it was a quick hack for something I no longer work on. If it does still work, consider messaging me to let me know.
-
-
 # Omniauth::Parse
 
 
