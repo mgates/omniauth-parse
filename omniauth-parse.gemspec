@@ -17,6 +17,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
+  gem.add_dependency 'omniauth'
   gem.add_dependency 'multi_json'
   gem.add_dependency 'faraday'
   gem.add_development_dependency 'rspec'
